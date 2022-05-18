@@ -1,0 +1,18 @@
+class Mainoverload
+{
+public static void main(String[] args)
+{
+System.out.println("main starts");
+main("shweta");
+main();
+System.out.println("main ends");
+}
+public static void main(String args)
+{
+System.out.println("main with string argument name="+args);
+}
+public static void main()
+{
+System.out.println("main with no argument");
+}
+}

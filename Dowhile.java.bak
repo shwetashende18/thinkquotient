@@ -1,0 +1,13 @@
+class Dowhile
+{
+public static void main(String[] args)
+{
+int a=23;
+do
+{
+System.out.println("eligible to vote");
+}
+while(a>=18);
+a--;
+}
+}

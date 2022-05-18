@@ -1,0 +1,22 @@
+class Methodoverloading
+{
+public static int add(int a,int b)
+{
+return a+b;
+}
+
+public static double add(double d1,double d2)
+{
+return d1+d2;
+}
+
+public static void main(String[] args)
+{
+System.out.println("main starts");
+System.out.println("sum="+add(20,40));
+
+System.out.println("sum="+add(20.20,40.60));
+System.out.println("main ends");
+}
+
+}

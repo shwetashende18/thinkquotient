@@ -1,0 +1,16 @@
+class Method
+{
+public static void methodname()
+{
+System.out.println("methodname in class");
+}
+public static void main(String[]args)
+{
+System.out.println("main starts");
+methodname();
+methodname();
+methodname();
+methodname();
+System.out.println("main ends");
+}
+}
